@@ -2,7 +2,7 @@
 ## javascript
 ---
 
-1️⃣. parentTag.appendChild(tag to make)
+1️⃣ parentTag.appendChild(tag to make)
 리스트가 생성되는 `<ul>` 태그 내 `<li>` 태그를 넣어 주는 방법 >> `appendChild` 사용
 ```js
   let newList = document.createElement("li");
@@ -11,7 +11,7 @@
   // appendChild 메서드는 부모 태그의 제일 마지막에 위치한다(=parentTag.length-1)
 ```
 
-2. delBtn[delBtn.length - 1]
+2️⃣ delBtn[delBtn.length - 1]
 del 버튼 누르면 리스트가 삭제되는 함수 작성
 ```js
   const delBtn = document.querySelectorAll(".delBtn");
@@ -26,7 +26,8 @@ del 버튼 누르면 리스트가 삭제되는 함수 작성
   // 따라서 delBtn[delBtn.length - 1]을 해주면 새롭게 생성될 때마다 eventListener가 적용된다(=모두 적용)
 ```
 
-3. 엔터 치면 리스트 생성
+3️⃣ 엔터 치면 리스트 생성
+
 console.log(e.key) ➡ "enter" / console.log(e.keyCode) ➡ "13"  >> `if문에 활용`
 ```js
 input.addEventListener("keypress", (e) => {
