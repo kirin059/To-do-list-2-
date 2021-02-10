@@ -27,7 +27,7 @@ del 버튼 누르면 리스트가 삭제되는 함수 작성
 ```
 
 3. 엔터 치면 리스트 생성
-console.log(e.key)를 하면 "enter"가 출력되고, console.log(e.keyCode)를 하면 "13"이 출력된다  >> if문에 활용하기
+console.log(e.key) ➡ "enter" / console.log(e.keyCode) ➡ "13"  >> `if문에 활용`
 ```js
 input.addEventListener("keypress", (e) => {
     if (e.keyCode === 13) {
