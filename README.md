@@ -2,7 +2,7 @@
 ## javascript
 ---
 
-1. parentTag.appendChild(tag to make)
+1️⃣. parentTag.appendChild(tag to make)
 리스트가 생성되는 `<ul>` 태그 내 `<li>` 태그를 넣어 주는 방법 >> `appendChild` 사용
 ```js
   let newList = document.createElement("li");
