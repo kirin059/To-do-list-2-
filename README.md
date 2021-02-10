@@ -12,6 +12,7 @@
 ```
 
 2️⃣ delBtn[delBtn.length - 1]
+
 del 버튼 누르면 리스트가 삭제되는 함수 작성
 ```js
   const delBtn = document.querySelectorAll(".delBtn");
